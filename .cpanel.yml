@@ -2,4 +2,4 @@
 deployment:
       tasks:
         - export DEPLOYPATH=/home2/gitpractice/public_html 
-       -  /bin/cp /home2/gitpractice/repositories/gitpractce/* $DEPLOYPATH
+       -  /bin/cp -R /home2/gitpractice/repositories/gitpractce/ /home2/gitpractice/public_html
